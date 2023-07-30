@@ -1,36 +1,27 @@
-body {
-  background-color: black;
-}
-h1,
-h2,
-h3,
-h4,
-span,
-li {
-  color: #ffcc00;
-}
 h1 {
   position: fixed;
-  top: 37px;
-  left: 179px;
+  top: 65px;
+  left: 380px;
   font-size: 30px;
   margin-top: 20px;
 }
 h2 {
   position: fixed;
-  font-size: 20px;
-  left: 180px;
-  top: 120px;
+  font-size: 15px;
+  left: 380px;
+  top: 110px;
 }
 h3 {
   position: fixed;
-  top: 153px;
-  font-size: 17px;
+  top: 151px;
+  left: 380px;
+  font-size: 13px;
 }
 h4 {
   position: fixed;
-  top: 180px;
-  font-size: 17px;
+  top: 187px;
+  left: 380px;
+  font-size: 13px;
 }
 
 li {
@@ -40,44 +31,45 @@ li {
   margin: 5px;
   padding: 0;
   line-height: 1.5;
-  right: -230px;
+  right: -245px;
   font-size: 11px;
+  color: #ffffff;
 }
-.card {
-  --bs-card-spacer-y: 4rem;
+div .card {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  --bs-card-spacer-y: 4.5rem;
   --bs-card-spacer-x: 10rem;
-  background-color: black;
-  border-color: #ffffff;
+  background-color: rgb(114, 199, 252);
 }
 .temperature {
   font-size: 28px;
   position: fixed;
   top: 70px;
-  right: 230px;
+  right: 585px;
 }
 
 .degree {
   position: fixed;
-  right: 210px;
+  right: 570px;
   top: 80px;
   font-size: 13px;
 }
 
 .container {
+  position: fixed;
   display: block;
   margin: 0 auto;
   width: 50%;
-  padding: 70px;
-  border: 30px;
+  margin: 458 0 458 0;
+  padding: 50px;
+  padding-left: 100px;
 }
 .search-form {
   position: fixed;
-  padding: 20px;
-  top: 200px;
-  margin: 13px;
-}
-.today-tempurature {
-  font-size: 25px;
+  top: 400px;
+  margin: 20px;
 }
 .fa-regular {
   position: fixed;
@@ -90,11 +82,11 @@ li {
   position: fixed;
   padding: 10.5px;
   font-size: 10px;
-  right: 180px;
-  top: 258px;
+  right: 568px;
+  top: 254px;
 }
-a {
-  position: inherit;
-  margin: 0 auto;
-  padding: 30px;
+.footer {
+  position: fixed;
+  left: 340px;
+  top: 300px;
 }
