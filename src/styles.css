@@ -93,3 +93,8 @@ li {
   right: 180px;
   top: 258px;
 }
+a {
+  position: inherit;
+  margin: 0 auto;
+  padding: 30px;
+}
